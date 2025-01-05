@@ -3,6 +3,7 @@ layout: ../../layouts/post.astro
 title: A Quick Reference for Bounding Boxes in Object Detection
 description: Cloudflare PyPI Mirror supports PEP 691 and CORS, enabling PyPI access in mainland China for Micropip with open-source code available
 dateFormatted: Jan 17, 2024
+tags: ["astro", "blogging", "learning in public"]
 ---
 
 [Pyodide](https://micropip.pyodide.org/en/stable/index.html) is a library that runs Python in WebAssembly, using [Micropip](https://micropip.pyodide.org/en/stable/index.html) to install packages from PyPI. Due to WebAssembly's requirements for CORS and PEP 691 when running in browsers, and the fact that Tsinghua's TUNA mirror doesn't support CORS, this creates some challenges.

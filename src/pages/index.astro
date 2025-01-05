@@ -1,6 +1,6 @@
 ---
 import Button from "../components/button.astro";
-import Projects from "../components/home/projects.astro";
+import Experience from "../components/home/experiences.astro";
 import Separator from "../components/home/separator.astro";
 import Writings from "../components/home/writings.astro";
 import Layout from "../layouts/main.astro";
@@ -18,26 +18,35 @@ import Layout from "../layouts/main.astro";
           Hello, I'm Rajdeep.
         </h1>
         <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
-          I'm an Engineer working at DREAM Lab at Indian Institute of Science
-          (IISc), Bangalore. <br class="hidden lg:block" />
-          <br class="hidden lg:block" /> I like working at the intersection of Software
-          Engineering, Robotics and Deep Learning systems.
+          I'm a Software Engineer passionate about Robotics, Computer Vision and
+          ML Systems. In my free time, I like reading and implementing research
+          papers and fiction books. Here, I share my thoughts on the latest
+          research, engineering practices, and personal experiences about
+          navigating the ever-evolving tech landscape. Thanks for stopping by!
         </p>
         <p class="mb-2 font-semibold text-neutral-800 dark:text-neutral-200">
-          Current Engagement:
+          Currently, I'm working through:
         </p>
         <ul
           class="py-2 space-y-[3px] text-sm list-disc list-inside text-neutral-500 dark:text-neutral-400"
         >
+          <li>MOOC: Coursera's Reinforcement Learning Specialization</li>
           <li>
-            Coursera's Reinforcement Learning Specialization by University of
-            Alberta
+            Book: Reinforcement Learning: An Introduction by Sutton and Barto
           </li>
-          <li>Reinforcement Learning: An Introduction by Sutton and Barto</li>
         </ul>
-        <Button text="Follow me on 𝕏" link="https://x.com/0xKaiBi" />
-        <Button text="Github" link="https://x.com/0xKaiBi" />
-        <Button text="Linkedin" link="https://x.com/0xKaiBi" />
+
+        <p class="mb-2 font-semibold text-neutral-800 dark:text-neutral-200">
+          <br />Follow me on:
+        </p>
+
+        <Button text="Github" link="https://github.com/singhsegv" />
+        <Button
+          text="Linkedin"
+          link="https://www.linkedin.com/in/rajdeep1008/"
+        />
+        <Button text="Medium" link="https://medium.com/@rajdeepsingh" />
+        <Button text="Instagram" link="https://www.instagram.com/singhsegv/" />
       </div>
       <div
         class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
@@ -57,7 +66,7 @@ import Layout from "../layouts/main.astro";
           </div>
           <div class="relative z-30 px-7">
             <img
-              src="/assets/images/blog-avatar.jpeg"
+              src="/assets/images/avatar.png"
               loading="eager"
               decoding="auto"
               class="relative z-30 w-full md:max-w-md mx-auto dark:-translate-y-0.5"
@@ -72,9 +81,30 @@ import Layout from "../layouts/main.astro";
     </div>
   </div>
 
+  <Separator text="Experience" />
+  <Experience />
+
   <Separator text="Some of my writing" />
   <Writings />
-
-  <Separator text="Check out my projects" />
-  <Projects />
 </Layout>
+
+<!-- In 2024, I left my long and interesting industrial career of working with
+startups in the backend engineering and moved to an academic research lab. -->
+
+<!-- At Loco, I led the development of machine learning systems and data pipelines
+for a platform serving over 1 million daily active users — tackling both the
+engineering challenges of scalability and the intricacies of real-time data
+processing. -->
+
+<!-- <br /><br /> Currently, I'm working as part of the research team at <a
+  href={"https://dream-lab.in/"}
+  class="relative items-center justify-center w-full font-medium tracking-wide text-center duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto hover:text-neutral-900 dark:hover:text-white"
+  >DREAM Lab</a
+> in Indian Institute of Science (IISc), Bangalore. Here, I've had the opportunity
+to bridge the gap between research and real-world applications, delving into cutting-edge
+research around unmanned aerial vehicles and Function-as-a-service (FaaS) platforms.
+
+<br />
+<br /> Before joining the research community, I was working with several early-stage
+startups, building products from scratch as well as scaling high-traffic backend
+services to millions of users. -->

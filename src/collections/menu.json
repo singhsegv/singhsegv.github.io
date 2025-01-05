@@ -20,15 +20,7 @@
 		"url": "/publications"
 	},
 	{
-		"name": "Bookshelf",
-		"url": "/books"
-	},
-	{
 		"name": "Papershelf",
 		"url": "/papers"
-	},
-	{
-		"name": "About",
-		"url": "/about"
 	}
 ]
