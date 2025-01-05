@@ -4,12 +4,28 @@
 		"url": "/"
 	},
 	{
-		"name": "Posts",
+		"name": "Blog",
 		"url": "/posts"
 	},
 	{
 		"name": "Projects",
 		"url": "/projects"
+	},
+	{
+		"name": "Talks",
+		"url": "/talks"
+	},
+	{
+		"name": "Publications",
+		"url": "/publications"
+	},
+	{
+		"name": "Bookshelf",
+		"url": "/books"
+	},
+	{
+		"name": "Papershelf",
+		"url": "/papers"
 	},
 	{
 		"name": "About",
