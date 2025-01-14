@@ -22,5 +22,9 @@
 	{
 		"name": "Papershelf",
 		"url": "/papers"
+	},
+	{
+		"name": "Bookshelf",
+		"url": "/books"
 	}
 ]
