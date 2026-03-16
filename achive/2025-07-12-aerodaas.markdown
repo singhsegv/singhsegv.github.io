@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "AeroDaaS: Towards an Application Programming Framework for Drones-as-a-Service"
+date:   2025-07-12 22:21:59 +00:00
+image: /images/aerodaas.png
+categories: research
+author: "Rajdeep Singh"
+authors: "Suman Raj, <strong>Rajdeep Singh</strong>, Kautuk Astu, Yogesh Simmhan"
+venue: "IEEE International Conference on Web Services (ICWS)"
+arxiv: https://ieeexplore.ieee.org/document/11169671
+---
+We show how shape reconstruction with 3D Gaussians can be expanded to include differentiable optical flow, colored mesh exports and more. 

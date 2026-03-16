@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Medium Publication: Robotics Demystified"
+date:   2025-05-1 22:21:59 +00:00
+image: /images/aerodaas.png
+categories: research
+author: "Rajdeep Singh"
+arxiv: https://ieeexplore.ieee.org/document/11169671
+---
+I love to write, building a technical publication focussed on Robotics.
