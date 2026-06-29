@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Franka Emika Panda: Vision based Pick-and-Place"
+title:  "Poseidon: Underwater Manipulator Arm"
 date:   2018-03-22 21:21:53 +00:00
 image: /images/physics.gif
 categories: UPenn
@@ -8,5 +8,4 @@ course: "MEAM 5200: Introduction to Robotics"
 author: "Leo Keselman"
 code: https://github.com/leonidk/physical_simulation
 ---
-On a Franka Emika Panda hardware.
-With [Chris Atkeson](http://www.cs.cmu.edu/~cga/) and Alex Spitzer. Using optimizers to match an observed trajectory.
+A 3 DoF arm for which I wrote the software stack all the way from Dynamixel motors to high level.
